@@ -1,0 +1,19 @@
+diff --git a/one.groovy b/one.groovy
+new file mode 100644
+index 0000000..be80645
+--- /dev/null
++++ b/one.groovy
+@@ -0,0 +1,17 @@
++something = {
++	other(id: "2013-11-15") {
++		thing {
++			that {
++				println 'About to run: 2013-11-15'
++				println "thing happened"
++				println 'Completed migration: 2013-11-15'
++			}
++		}
++	}
++}
+-
++
